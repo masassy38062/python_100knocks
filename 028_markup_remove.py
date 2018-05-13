@@ -129,6 +129,7 @@ def other_check(value):
     else:
         return value
 
+
 def markup_remove(link_remove_dict):
     for key,value in link_remove_dict.items():
         value = pound_check(value)
